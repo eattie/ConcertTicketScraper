@@ -6,9 +6,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
+
+client_id = 'MzgxNDIyODB8MTY5OTUwNTU5OS4xNTcxMzQ1'
+client_secret = '50839cdc51be2d3727106c8a68480067b86c314c73fe4b564cf8e728e15c17c2'
 
 
 def scrape_seatgeek_event_prices(url):
